@@ -20,5 +20,25 @@ to setup this project, run the following commands on your terminal
 ```
 I recommend that you use [POSTMAN](https://www.postman.com/) for testing this api or you can hook it up with any front-end application.
 
+##Endpoints
+
+Register {POST}
+`http://betchat-app.herokuapp.com/api/auth/register`
+
+Login {POST}
+`http://betchat-app.herokuapp.com/api/auth/login`
+
+Add Post {POST}
+`http://betchat-app.herokuapp.com/api/post`
+
+Get Post {GET}
+`http://betchat-app.herokuapp.com/api/posts`
+
+My Profile {GET}
+`http://betchat-app.herokuapp.com/api/users/621e7b3b6fb43bdd5eec0ec8`
+
+If you are running the application locally, replace `http://betchat-app.herokuapp.com` with your localhost url in the endpoint.
+
+
 ## Author
 [Samuel Olubayo](http://samuelolubayo.website)
